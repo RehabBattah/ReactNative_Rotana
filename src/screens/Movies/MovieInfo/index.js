@@ -4,7 +4,7 @@ import { useRoute, useNavigation } from "@react-navigation/native";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { FontAwesome5 } from "@expo/vector-icons";
 import ItemCard from "../../../components/ItemCard";
-import { getWishlist, toggleWishlist } from "../../../utils/WishList";
+import { getWishlist, toggleWishlist } from "../../../utils/WishListLocal";
 import { fetchRecommendations } from "../../../utils/api";
 import Foundation from "@expo/vector-icons/Foundation";
 import styles from "./styles";

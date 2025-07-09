@@ -1,6 +1,3 @@
-
-// utils/WishList.js
-
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const getWishlist = async () => {
